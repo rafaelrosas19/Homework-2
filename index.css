@@ -1,0 +1,12 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.container-fluid{
+    background-color: rgb(220, 236, 219);
+}
+.card-header{
+    font-size: 30px;
+}
+.page-footer{
+    background-color: rgb(219, 219, 219);
+}
