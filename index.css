@@ -1,12 +1,87 @@
-.navbar-brand{
-    font-size: 30px;
+*{
+    background-color: rgb(247, 240, 235);
+}
+.center-text{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
 }
 .container-fluid{
-    background-color: rgb(220, 236, 219);
+    padding-top: 10px;
+    padding-left: 100px;
 }
-.card-header{
-    font-size: 30px;
+.first-viewport{
+    height: 100vh;
 }
-.page-footer{
-    background-color: rgb(219, 219, 219);
+.row-1{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 65px;
+    max-width: 1000px;
+
+}
+.row-2{
+    font-family: 'Roboto Mono',monospace;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    height:50vh;
+    justify-content: center;
+    position: relative;
+}
+.fab{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    margin-left:20px;
+    margin-right: 20px;
+}
+.fab:hover{
+    color: rgb(152, 137, 112);
+}
+.text-link{
+    font-family: 'Roboto Mono',monospace;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+}
+.text-link:hover{
+    color: rgb(152, 137, 112);
+}
+
+
+.sidenav {
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    bottom: 10px;
+    left: 10px;
+    background: rgb(247, 240, 235);
+    overflow-x: hidden;
+    padding: 8px 0;
+    opacity: 0.8;
+}
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    font-family:'Roboto Mono',monospace;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+  
+.sidenav a:hover {
+    color: rgb(152, 137, 112);
+}
+
+.card-deck{
+height: 100vh;
+background-size: cover;
+border: black;
+border-width: 5px;
+}
+.card{
+    height: 300px;
+    margin-top: 100px;
+    border: black;
+    border-width: 5px;
 }
